@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>CA Preview Repo Profile</Name>
+  <Profile>
+    [b]Community Apps Repo Overview Preview[/b][br]
+    This repository exists as test data for the CA submission flow and preview environment.[br][br]
+    It supports CA formatting tags like [b]bold[/b] and [br] line breaks, plus Markdown:[br]
+    - Markdown bullet 1[br]
+    - Markdown bullet 2[br][br]
+    Links are OK too: [a href="https://docs.unraid.net/connect/community-apps/"]Community Apps docs[/a]
+  </Profile>
+
+  <Icon>https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/unraid.svg</Icon>
+  <WebPage>https://docs.unraid.net/connect/community-apps/</WebPage>
+  <Forum>https://forums.unraid.net/topic/38582-plug-in-community-applications/</Forum>
+  <DonateLink>https://github.com/sponsors/unraid</DonateLink>
+  <DonateText>Support Unraid</DonateText>
+  <Discord>https://discord.com/invite/unraid</Discord>
+</Container>
+

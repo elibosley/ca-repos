@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>CA Preview: Nginx (Alpine)</Name>
+  <Repository>nginx:alpine</Repository>
+  <Icon>https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/nginx.svg</Icon>
+  <Category>Network:</Category>
+  <Overview>
+    Example template using a well-known image with a tag to exercise Docker Hub stats parsing.[br][br]
+    [b]Notes[/b][br]
+    - This is not meant to be installed as-is; it is just preview/test data.
+  </Overview>
+  <Support>https://forums.unraid.net/</Support>
+</Container>
+
