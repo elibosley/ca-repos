@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>RTL88xxAU USB WiFi Driver (rtw88)</Name>
+  <Repository></Repository>
+  <Registry></Registry>
+  <Project>https://github.com/elibosley/unraid-rtl8821au</Project>
+  <Support>https://github.com/elibosley/unraid-rtl8821au/issues</Support>
+  <Category>Drivers: Network:</Category>
+  <Icon>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/icon.svg</Icon>
+  <Plugin>true</Plugin>
+  <PluginURL>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/unraid-rtl8821au.plg</PluginURL>
+  <Overview>
+    [b]In-kernel rtw88 (mac80211) USB Wi-Fi driver for Realtek RTL88xxAU chipsets.[/b][br][br]
+    Builds and installs the rtw88 A-series chip modules that Unraid ships disabled
+    (CONFIG_RTW88_8821AU is not set), plus their firmware, giving you a wlan0
+    interface you configure in Settings -&gt; Network Settings. Because rtw88 is a
+    mac80211 driver, [b]WPA3-SAE / PMF work[/b] (verified on RTL8811AU). Modules are
+    rebuilt automatically per Unraid kernel release.[br][br]
+
+    [b]Supported chipsets[/b][br]
+    - RTL8811AU / RTL8821AU (AC600)[br]
+    - RTL8812AU (AC1200)[br]
+    - RTL8814AU (AC1900)[br][br]
+
+    [b]Known adapters[/b] (non-exhaustive; the driver binds by USB ID)[br]
+    RTL8811AU/8821AU: TP-Link Archer T2U Nano / T2U Plus / T2U v3, D-Link DWA-171,
+    Edimax EW-7811UAC / EW-7811UTC, Netgear A6100, ASUS USB-AC51.[br]
+    RTL8812AU: TP-Link Archer T4U / T4UH, ASUS USB-AC56, Alfa AWUS036AC / AWUS036ACH,
+    D-Link DWA-182, Netgear A6210, Edimax EW-7822UAC, Tenda U12.[br]
+    RTL8814AU: TP-Link Archer T9UH, ASUS USB-AC68, Alfa AWUS1900, D-Link DWA-192,
+    Netgear A7000.[br][br]
+
+    [b]All supported USB IDs (vendor:product)[/b][br]
+    [b]RTL8811AU/8821AU:[/b] 0411:0242 0411:029b 04bb:0953 056e:4007 056e:400e 056e:400f
+    0846:9052 0bda:0811 0bda:0820 0bda:0821 0bda:0823 0bda:8822 0bda:a811 0e66:0023
+    2001:3314 2001:3318 2019:ab32 20f4:804b 2357:011e 2357:011f 2357:0120 3823:6249
+    7392:a811 7392:a812 7392:a813 7392:b611[br]
+    [b]RTL8812AU:[/b] 0409:0408 0411:025d 04bb:0952 050d:1106 050d:1109 0586:3426
+    0789:016e 07b8:8812 0846:9051 0b05:17d2 0bda:8812 0bda:881a 0bda:881b 0bda:881c
+    0df6:0074 0e66:0022 1058:0632 13b1:003f 148f:9097 1740:0100 2001:330e 2001:3313
+    2001:3315 2001:3316 2019:ab30 20f4:805b 2357:0101 2357:0103 2357:010d 2357:010e
+    2357:010f 2357:0122 2604:0012 7392:a822[br]
+    [b]RTL8814AU:[/b] 056e:400b 056e:400d 0846:9054 0b05:1817 0b05:1852 0b05:1853
+    0bda:8813 0e66:0026 2001:331a 20f4:809a 20f4:809b 2357:0106 7392:a833 7392:a834[br][br]
+
+    Tip: run [b]lsusb[/b] and match your adapter's vendor:product against the lists above.[br][br]
+
+    [b]Notes[/b][br]
+    - Set your Country/Region in Network Settings, or 5 GHz channels stay scan-only (no-IR).[br]
+    - Host-only: wlan0 cannot be bridged into br0, so Docker/VM bridged networking won't ride over it.[br]
+    - After an Unraid OS upgrade, a matching driver release is built automatically (within ~24h).
+  </Overview>
+</Container>

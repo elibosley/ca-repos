@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>CA Preview Repo Profile</Name>
+  <Name>elibosley Unraid apps</Name>
   <Profile>
-    [b]Community Apps Repo Overview Preview[/b][br]
-    This repository exists as test data for the CA submission flow and preview environment.[br][br]
-    It supports CA formatting tags like [b]bold[/b] and [br] line breaks, plus Markdown:[br]
-    - Markdown bullet 1[br]
-    - Markdown bullet 2[br][br]
-    Links are OK too: [a href="https://docs.unraid.net/connect/community-apps/"]Community Apps docs[/a]
+    [b]elibosley's Unraid Community Applications repository[/b][br][br]
+    Plugins and drivers for Unraid.[br][br]
+    Currently included:[br]
+    - [b]RTL88xxAU USB WiFi Driver (rtw88)[/b] - in-kernel mac80211 driver for Realtek
+      RTL8811AU / RTL8821AU / RTL8812AU / RTL8814AU USB Wi-Fi adapters that Unraid ships
+      disabled. Supports WPA3-SAE; rebuilt automatically per Unraid kernel.
   </Profile>
 
-  <Icon>https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/unraid.svg</Icon>
-  <WebPage>https://docs.unraid.net/connect/community-apps/</WebPage>
-  <Forum>https://forums.unraid.net/topic/38582-plug-in-community-applications/</Forum>
-  <DonateLink>https://github.com/sponsors/unraid</DonateLink>
-  <DonateText>Support Unraid</DonateText>
-  <Discord>https://discord.com/invite/unraid</Discord>
+  <Icon>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/icon.svg</Icon>
+  <WebPage>https://github.com/elibosley/unraid-rtl8821au</WebPage>
+  <Support>https://github.com/elibosley/unraid-rtl8821au/issues</Support>
 </Container>
-
