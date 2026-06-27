@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#0f1a12"/>
+  <!-- leaf -->
+  <path d="M41 13c6-3 11-1 11-1s0 6-4 9-9 2-11 0c-1-3 1-6 4-8z" fill="#5bbf4a"/>
+  <path d="M44 14c-3 2-6 5-7 8" stroke="#3f9a32" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <!-- lime body -->
+  <circle cx="30" cy="38" r="20" fill="#7ed957"/>
+  <!-- rind ring -->
+  <circle cx="30" cy="38" r="16.5" fill="#d6f5b8"/>
+  <!-- flesh -->
+  <circle cx="30" cy="38" r="13.5" fill="#eaffd0"/>
+  <!-- segments -->
+  <g stroke="#9cd86a" stroke-width="1.6" stroke-linecap="round">
+    <line x1="30" y1="38" x2="30" y2="25"/>
+    <line x1="30" y1="38" x2="41" y2="31"/>
+    <line x1="30" y1="38" x2="42" y2="43"/>
+    <line x1="30" y1="38" x2="34" y2="50"/>
+    <line x1="30" y1="38" x2="24" y2="50"/>
+    <line x1="30" y1="38" x2="18" y2="43"/>
+    <line x1="30" y1="38" x2="19" y2="31"/>
+  </g>
+  <circle cx="30" cy="38" r="2.4" fill="#7ed957"/>
+  <!-- shine -->
+  <path d="M20 28a14 14 0 0 1 8-5" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+</svg>

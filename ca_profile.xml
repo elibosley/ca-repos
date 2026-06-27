@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>elibosley Unraid apps</Name>
+  <Name>elibosley</Name>
   <Profile>
-    [b]elibosley's Unraid Community Applications repository[/b][br][br]
-    Plugins and drivers for Unraid.[br][br]
-    Currently included:[br]
-    - [b]RTL88xxAU USB WiFi Driver (rtw88)[/b] - in-kernel mac80211 driver for Realtek
-      RTL8811AU / RTL8821AU / RTL8812AU / RTL8814AU USB Wi-Fi adapters that Unraid ships
-      disabled. Supports WPA3-SAE; rebuilt automatically per Unraid kernel.
+    [b]Hey, I'm Eli ([i]elibosley[/i]) - I work at Unraid.[/b][br][br]
+    This is my personal corner of Community Apps: plugins and drivers I build,
+    actually run on my own servers, and keep maintained. Everything here is open
+    source and tested on real hardware before it ships.[br][br]
+    [b]In the repo right now[/b][br]
+    - [b]RTL88xxAU USB WiFi Driver[/b] - gets cheap Realtek USB Wi-Fi adapters
+      (RTL8811AU/8821AU/8812AU/8814AU) working on Unraid, WPA3 and all.[br][br]
+    More to come. [b]Made with 🍋 at Lime Technology.[/b]
   </Profile>
 
-  <Icon>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/icon.svg</Icon>
-  <WebPage>https://github.com/elibosley/unraid-rtl8821au</WebPage>
-  <Support>https://github.com/elibosley/unraid-rtl8821au/issues</Support>
+  <Icon>https://raw.githubusercontent.com/elibosley/ca-repos/main/icon.svg</Icon>
+  <WebPage>https://github.com/elibosley</WebPage>
+  <Support>https://github.com/elibosley/ca-repos/issues</Support>
 </Container>
