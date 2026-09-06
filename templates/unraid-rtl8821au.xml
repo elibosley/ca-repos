@@ -9,6 +9,7 @@
   <Icon>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/icon.svg</Icon>
   <Plugin>true</Plugin>
   <PluginURL>https://raw.githubusercontent.com/elibosley/unraid-rtl8821au/main/unraid-rtl8821au.plg</PluginURL>
+  <PluginAuthor>elibosley</PluginAuthor>
   <Overview>
     [b]In-kernel rtw88 (mac80211) USB Wi-Fi driver for Realtek RTL88xxAU chipsets.[/b][br][br]
     Builds and installs the rtw88 A-series chip modules that Unraid ships disabled
